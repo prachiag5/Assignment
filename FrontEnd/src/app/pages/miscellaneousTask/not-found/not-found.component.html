@@ -1,0 +1,79 @@
+<!--<div class="row">
+  <div class="col-md-12">
+    <nb-card>
+      <nb-card-body>
+        <div class="flex-centered col-xl-4 col-lg-6 col-md-8 col-sm-12">
+          <h2 class="title">404 Page Not Found</h2>
+          <small class="sub-title">The page you were looking for doesn't exist</small>
+          <button (click)="goToHome()" type="button" class="btn btn-block btn-hero-primary">
+            Take me home
+          </button>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div> -->
+
+<div class="row">
+  <div class="col-md-12">
+    <nb-card>
+      <nb-card-header>
+      <div class="row borderStyling">    
+        <div class="col-md-2 content vertical-border">Devices</div>
+        <div class="col-md-2 content vertical-border">Manage Certificates</div>
+        <div class="col-md-2 content vertical-border">Blocked Devices</div>
+        <div class="col-md-2 content">Settings</div>
+        <div class="col-md-4"></div>
+      </div>
+      <div class="row borderStyling">
+      <!--<button type="button" class="btn btn-default active">
+          All Devices
+        </button> -->
+        <button class="btn-icon">
+          All Devices
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="buttonRow">
+          <button> Button 1 </button>
+          <button>Button 2</button>
+          <button>Button 3</button>
+          <button>Button 4</button>
+          <button >Button 5</button>
+          <button>Button 6</button>
+        </div>
+      </div>
+      </nb-card-header>
+      <nb-card-body>
+      <table class="flex-centered">
+        <tr>
+          <input type="checkbox"/>
+          <th> Device Name </th>
+          <th>Communication Type</th>
+          <th>Location</th>
+          <th>Firmware</th>
+          <th>Telemetry</th>
+          <th>Status</th>
+          <th>Last Connection</th>
+          <th>Authentication Status</th>
+        </tr>
+        <tr>
+          <input type="checkbox" checked/>
+          <td>USA</td>
+          <td>Apple Inc</td> 
+        </tr>
+        <tr>
+          <input type="checkbox"/>
+          <td>Sweden</td>
+          <td>IKEA Furnitures</td>
+        </tr>
+        <tr>
+          <input type="checkbox" checked/>
+          <td>Finland</td>
+          <td>Nokia Communications</td>
+        </tr>
+      </table>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>
+  

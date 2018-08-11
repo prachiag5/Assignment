@@ -1,0 +1,43 @@
+.flex-centered {
+  margin: auto;
+}
+
+nb-card-body {
+  overflow: visible;
+}
+
+.btn-icon {
+  font-size: 1em;
+}
+.table {
+  width: 100%;
+}
+.buttonRow {
+  position: absolute;
+  right: 18px;
+  left: auto;
+  margin-top: 5px;
+}
+.vertical-border {
+  border-right: 1px solid;
+}
+td, th {
+  text-align: center;
+  padding:8px 2px 0 5px;
+}
+
+input[type="checkbox"] {
+  margin-top: 8px;
+}
+
+tr:nth-child(1) {
+  background-color: white;
+}
+
+.borderStyling {
+  border: 1px solid;
+}
+
+.content {
+  text-align: center;
+}
