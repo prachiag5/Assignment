@@ -164,6 +164,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'Assignment',
         link: '/pages/AssignmentTask/Assignment',
       },
+      {
+        title: 'SecondAssignment',
+        link: '/pages/AssignmentTask/SecondAssignment',
+      },
     ],
   },
   {

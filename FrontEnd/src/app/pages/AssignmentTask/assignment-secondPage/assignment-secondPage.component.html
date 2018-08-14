@@ -1,0 +1,87 @@
+<div class="row">
+  <div class="col-md-12">
+    <nb-card>
+      <nb-card-header>
+      <div class="row borderStyling">    
+        <div class="col-md-2 content vertical-border">Devices</div>
+        <div class="col-md-2 content vertical-border" style="background-color: grey">Manage Certificates</div>
+        <div class="col-md-2 content vertical-border">Blocked Devices</div>
+        <div class="col-md-2 content">Settings</div>
+        <div class="col-md-4"></div>
+      </div>
+      <div class="row borderStyling">
+        <button class="btn-icon">
+          All Devices
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="buttonRow">
+          <button> Button 1 </button>
+          <button>Button 2</button>
+          <button>Button 3</button>
+          <button>Button 4</button>
+          <button >Button 5</button>
+          <button>Button 6</button>
+        </div>
+      </div>
+      </nb-card-header>
+      <nb-card-body>
+      <div class="row">  
+        <h3>Certificate Management</h3>
+        <div class="refresh-text">
+          <span style="font-weight: bold">LAST REFRESHED:  </span>
+          <span>04.12.2017 23:34</span>
+        </div>
+      </div>
+      <br/>
+      <div class="row flex-centered">
+      <span class="certificate-no">0</span>
+      <span class="certificate-status">Open</span>
+      <span class="certificate-no">3</span>  
+      <span class="certificate-status">Critical</span>
+      <span class="certificate-no">6</span>
+      <span class="certificate-status">Failed</span>
+      <span class="certificate-no">24</span>
+      <span class="certificate-status">Total</span>
+      <span class="certificate-no">20</span>
+      <span class="certificate-status">Authenticated</span>
+      </div>
+      <br/>
+      <nb-tabset id="tabset_1">
+          <nb-tab tabTitle="Alarms">
+          </nb-tab>
+          <nb-tab tabTitle="Job Status">
+              <table>
+                  <tr>
+                    <input type="checkbox"/>
+                    <th>Job Name</th>
+                    <th>Status</th>
+                    <th>Firmware</th>
+                    <th>No Devices</th>
+                    <th>Succeeded</th>
+                    <th>Failed</th>
+                    <th>START TIME</th>
+                    <th>END TIME</th>
+                  </tr>
+                  <tr>
+                    <input type="checkbox" checked/>
+                    <td>USA</td>
+                    <td>Applying...</td> 
+                  </tr>
+                  <tr>
+                    <input type="checkbox"/>
+                    <td>Sweden</td>
+                    <td>IKEA Furnitures</td>
+                  </tr>
+                  <tr>
+                    <input type="checkbox" checked/>
+                    <td>Finland</td>
+                    <td>Nokia Communications</td>
+                  </tr>
+                </table>
+          </nb-tab>
+      </nb-tabset>
+    </nb-card-body>
+    </nb-card>
+  </div>
+</div>
+  

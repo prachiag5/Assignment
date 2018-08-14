@@ -42,10 +42,21 @@ tr:nth-child(1) {
   text-align: center;
 }
 
+.certificate-no {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: -13px;
+}
+
+.certificate-status {
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
 .refresh-text {
-  margin-right: 3px;
+  margin-right: 10px;
   margin-left: auto;
   font-size: 0.8rem;
-  float: right;
-  padding-bottom: 5px;
+  margin-top: 5px;
 }
